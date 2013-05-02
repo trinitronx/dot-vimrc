@@ -1,0 +1,4 @@
+[submodule "fisa-vim-config"]
+	path = fisa-vim-config
+	url = git@github.com:trinitronx/fisa-vim-config.git
+	branch = keymap-customizations
