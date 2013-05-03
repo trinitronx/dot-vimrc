@@ -1,3 +1,4 @@
 # Ignore state files from vim plugins
 .netrwhist
 vim_phpdebug.sess
+bundle/.vundle/script-names.vim-scripts.org.json
