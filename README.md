@@ -24,11 +24,12 @@ Based on [fisa-vim-config](https://github.com/fisadev/fisa-vim-config)
      * `[sudo] gem install github-markup tilt redcarpet`
    * On Linux, set a default browser:
 
+```bash
     # To set the default application for http(s):// links (replace browser.desktop by your browser's .desktop, e.g. firefox.desktop or chromium.desktop):
     xdg-mime default browser.desktop x-scheme-handler/http
     xdg-mime default browser.desktop x-scheme-handler/https
     xdg-mime default browser.desktop text/html
-
+```
 
 **Linux**
 
