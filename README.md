@@ -26,3 +26,14 @@ Based on [fisa-vim-config](https://github.com/fisadev/fisa-vim-config)
 
  * [MacVim](https://github.com/b4winckler/macvim) 
 
+## Updating
+
+1. `git submodule update --init fisa-vim-config`
+2. `vim +Bundleinstall +qall`
+3. `for d in $(ls -d1 bundle/*); do  git add ${d%/}; done`
+4. `git commit -m 'Updating all submodules to latest from fisa-vim-config'`
+5. Remove any other plugins that are deprecated or gone from fisa-vim-config
+
+To update all submodules to latest:
+
+ * `git submodule update --init --recursive`
