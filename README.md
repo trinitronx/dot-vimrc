@@ -14,7 +14,9 @@ Based on [fisa-vim-config](https://github.com/fisadev/fisa-vim-config)
 
  * Hammer.vim requires:
    * A vim built with `+ruby` support. (`vim --version | grep '+ruby'`)
-   * Same ruby version that vim was compiled against <br/>([RVM users be aware of this](https://github.com/matthias-guenther/hammer.vim#rvm-users)<br/>Run `rvm use system` before next step!)
+   * Same ruby version that [vim was compiled against](http://mattmargolis.net/scripting_vim_with_ruby.pdf)<br/>
+     ([RVM users be aware of this](https://github.com/matthias-guenther/hammer.vim#rvm-users)
+     <br/>Run `rvm use system` before next step!)
    * Some gems: `[sudo] gem install github-markup tilt`
 
 **Linux**
