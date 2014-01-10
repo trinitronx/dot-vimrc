@@ -6,7 +6,7 @@ Based on [fisa-vim-config](https://github.com/fisadev/fisa-vim-config)
 
 1. `git clone http://github.com/trinitronx/dot-vim.git ~/.vim`
 2. `cd ~/.vim`
-3. `git submodule update --init --recursive`
+3. `git submodule update --init fisa-vim-config`
 4. `ln -s ~/.vim/vimrc ~/.vimrc`
 5. `vim +BundleInstall +qall` _installs all of the plugins_
 
